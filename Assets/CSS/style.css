@@ -44,7 +44,6 @@ main h2 span {
   border-top: 3px solid black;
 }
 .productos p {
-  font-size: auto;
   margin: 0 10px;
 }
 
@@ -80,7 +79,6 @@ footer {
     font-size: 1.5rem;
   }
 
-
   #productos {
     flex-direction: column;
     justify-content: center;
@@ -89,8 +87,8 @@ footer {
     margin: auto;
   }
 
-  .productos p {
-    font-size: 0.8rem;
+  .destacados p {
+    font-size: 0.85rem;
   }
 
   #comuniquemonos {
@@ -111,7 +109,9 @@ footer {
   main .destacados h2 {
     font-size: 2rem;
   }
-
+  .destacados p {
+    font-size: auto;
+  }
   #productos {
     flex-direction: column;
     justify-content: center;
@@ -141,7 +141,9 @@ footer {
   main .destacados h2 {
     font-size: 2rem;
   }
-
+  .destacados p {
+    font-size: auto;
+  }
   #productos {
     display: flex;
     flex-wrap: wrap;
